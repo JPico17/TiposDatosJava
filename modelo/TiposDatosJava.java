@@ -18,7 +18,11 @@ public class TiposDatosJava
         String s = "UIS SOCORRO";
         int[] a = new int[12];
         Punto p1 = new Punto(2,3);
+        Punto p2;
+        p2 = new Punto(-2, -4);
+        //p1 = p2;
         System.out.println("Tipos de datos referenciados: ");
         System.out.println("Punto: "+p1);
+        System.out.println("Punto: "+p2);
     }
 }
